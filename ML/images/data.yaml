@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['apple-logo', 'google-logo', 'intel-logo', 'microsoft-logo', 'nvidia-logo']
+
+roboflow:
+  workspace: hugo-s759p
+  project: logo-detection-mqarb-cvcaf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hugo-s759p/logo-detection-mqarb-cvcaf/dataset/1
