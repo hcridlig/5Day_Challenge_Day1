@@ -31,7 +31,7 @@ function App() {
       const base64Image = await convertToBase64(selectedFile);
 
       // Send request to backend
-      const response = await fetch("http://localhost:5000/api/detect", {
+      const response = await fetch("http://98.66.181.2/api/detect", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ image: base64Image }),
