@@ -26,6 +26,9 @@ jobs:
       
       - name: Change directory
         run: cd backend
+
+      - name: Test
+        run: ls
         
       - name: Create and start virtual environment
         run: |
